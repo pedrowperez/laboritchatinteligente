@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'sk-proj-ocbLiBvieBBJOfVb7fotT3BlbkFJ8ymgQNNZYn2mgqr1Ur1Y';
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 export const getChatResponse = async (prompt) => {
   try {
