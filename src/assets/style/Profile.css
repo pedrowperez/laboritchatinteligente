@@ -1,0 +1,148 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 110px);
+    background-color: #fff;
+    padding-top: 110px;
+  }
+
+  .profile-container .profile-content {
+    flex: 1;
+    padding: 20px 37px;
+    text-align: center;
+  }
+  
+  .profile-container .profile-info .profile-image img {
+    width: 105px;
+    height: 112px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .profile-container .profile-info .profile-image {
+    max-width: 110px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .profile-container .profile-info .profile-image::after {
+    display: block;
+    content: "";
+    width: 16px;
+    background:#141718;
+    height: 16px;
+    position: absolute;
+    bottom: 22px;
+    right: 0px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+  }
+
+  .profile-container .profile-info h2 {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40.5px;
+    color: #212121;
+  }
+  .profile-container .profile-info p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #323142;
+    margin: 0;
+    font-size: 14px;
+  }
+  .profile-container .profile-menu {
+    margin: 20px auto;
+    max-width: 370px;
+  }
+  
+  .profile-container .profile-menu .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .profile-container .profile-menu .menu-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #323142;
+    margin: 0;
+    font-size: 18.37px;
+    line-height: 27.56px;
+    width: 100%;
+    text-align: left;
+    padding-left: 23.48px;
+  }
+  
+  .profile-container .menu-icon {
+    font-size: 24px;
+  }
+  
+  .profile-container .menu-arrow {
+    font-size: 24px;
+  }
+  
+  .profile-container .security-status {
+    padding-left: 57px;
+    max-width: 211px;
+  }
+  .profile-container .security-status .security-label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #323142;
+    margin: 0;
+    font-size: 16.33px;
+    line-height: 24.5px;
+    text-align: left;
+    display: block;
+    padding-top: 15.53px;
+    width: 100%;
+  }
+
+  .profile-container .security-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 20.42px 61.25px 0px #373E7D0D;
+  }
+  
+  .profile-container .security-level {
+    height: 8px;
+    border-radius: 5px;
+    background-color: #141718;
+    width: 80%;
+  }
+  
+  .profile-container .profile-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #FCFCFD;
+    border-top: 1.2px solid #DADADA
+  }
+  
+  .profile-container .footer-icon {
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .profile-container .footer-icon.active::after {
+    display: block;
+    content: "";
+    width: 7.21px;
+    background:#141416;
+    height: 7.21px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -6px;
+    left: 10px;
+  }
+  

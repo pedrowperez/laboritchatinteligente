@@ -1,0 +1,72 @@
+.invite-friends-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 140px);
+    background-color: #fff;
+    padding-top: 140px;
+  }
+  
+
+  .invite-friends-container .invite-friends-content {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .invite-friends-container .invite-box {
+    text-align: center;
+  }
+  
+  .invite-friends-container .invite-image {
+    width: 167.3px;
+    height: 245.27px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .invite-friends-container .invite-code-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    border: 2px solid #141718;
+    border-radius: 15px;
+    background: #1417181A;
+  }
+  
+  .invite-friends-container input[type="text"] {
+    font-family: "Poppins", sans-serif;
+    line-height: 23.8px;
+    padding: 16px 11px;
+    border: none;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    color: #141718;
+    background: transparent;
+  }
+
+  .invite-friends-container .copy-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .invite-friends-container h2 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+  }
+
+  .invite-friends-container p {
+    font-size: 17px;
+    line-height: 24px;
+    color: #666666;
+    max-width: 267px;
+  }
+  
+
+  
