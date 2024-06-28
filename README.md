@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6da8c62b-d873-455f-9a2d-9d0ebe5a2d2c/deploy-status)](https://app.netlify.com/sites/laborit-chat/deploys)
 # Chat Inteligente para Laborit
 
 ## O Desafio
